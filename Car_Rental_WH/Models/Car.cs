@@ -16,11 +16,11 @@ namespace Car_Rental_WH.Models
         public long BodyNumber { get; set; }
         public long EngineNumber { get; set; }
         public long RegistrationNumber { get; set; }
-        public byte[] YearOfManufacture { get; set; }
+        public DateTime YearOfManufacture { get; set; }
         public long Run { get; set; }
         public double CarPrice { get; set; }
         public double PriceOfTheRentalDay { get; set; }
-        public byte[] LastToDate { get; set; }
+        public DateTime LastToDate { get; set; }
         public string SpecialMark { get; set; }
         public string RefundMark { get; set; }
         public long TheCodeOfTheEmployee { get; set; }
